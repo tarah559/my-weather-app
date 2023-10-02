@@ -14,10 +14,9 @@ h1 {
 
 ul {
     list-style: none;
-    margin-bottom: 21px;
+    margin-bottom: 21px; 
     text-transform: capitalize;
 }
-
 
 .container {
     margin-left: auto;
@@ -37,7 +36,7 @@ ul {
     font-size: 64px;
     font-weight: 300;
     line-height: 1;
-  
+    margin-left: -20px;
 }
 
 .icon-container {
@@ -48,7 +47,6 @@ ul {
     padding: 25px;
     border: 1px solid #354767;
     border-radius: 20px;
-    color: rgb(4, 71, 134);
     max-width: 600px;
 }
 .weather-app-wrapper {
@@ -83,4 +81,13 @@ ul {
     border-radius: 5px;
     margin-right: 10px;
     width: 64px;
+}
+
+.icon-container .active{
+    color: black;
+    cursor: default;
+}
+
+.icon-container .active:hover {
+    text-decoration: none;
 }
